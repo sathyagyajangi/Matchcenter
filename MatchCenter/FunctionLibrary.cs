@@ -198,7 +198,7 @@ namespace MatchCenter
 
         {
 
-            for (int i = 1; i <= 30; i++)
+            for (int i = 1; i <= 100; i++)
             {
                 try
                 {
@@ -208,7 +208,7 @@ namespace MatchCenter
                     if (si.Contains("(0.1)"))
 
                     {
-
+                        FunctionLibrary.waitForElement(driver, "//*[@class='footer-link container']");
                         FunctionLibrary.MouseOver(driver, "//*[@class='footer-link container']");
                         break;
 
@@ -252,6 +252,13 @@ namespace MatchCenter
            
 
         }
-       
+        public static void DropDown(IWebDriver driver, String LocatorValue, String Value)
+        {
+            IWebElement element = driver.FindElement(By.XPath(LocatorValue));
+            SelectElement sel = new SelectElement(element);
+            sel.SelectByText(Value);
+        }
+
+        
     }
 }

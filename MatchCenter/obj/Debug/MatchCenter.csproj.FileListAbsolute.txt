@@ -15,3 +15,6 @@ C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\obj\Debug\MatchCenter
 C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\obj\Debug\MatchCenter.csproj.CopyComplete
 C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\obj\Debug\MatchCenter.dll
 C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\obj\Debug\MatchCenter.pdb
+C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\bin\Debug\ConvertCase.dll
+C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\bin\Debug\WebDriver.Support.dll
+C:\Users\Satyanarayan\source\repos\MatchCenter\MatchCenter\bin\Debug\WebDriver.Support.xml
